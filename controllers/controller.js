@@ -1,6 +1,6 @@
 const path = require('path')
 
-const controller = {"nome do aluno": "Rilave"}
+const controller = {}
 
 controller.index = (req,res) => {
     res.sendFile(path.resolve(`${__dirname}/../views/index.html`)) // só funciona ultilizando a biblioteca path (linha 1)
